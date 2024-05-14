@@ -1,0 +1,35 @@
+/* Header */
+#SECTION393>.ladi-section-background{
+    background-color: #005bbb;
+}
+
+.cs-header{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    position: relative;
+}
+
+.cs-header .cs-logo{
+    height: 100%;
+    width: auto;
+    margin-left: 10%;
+}
+
+.cs-header .cs-logo img{
+    width: auto;
+    height: 100%;
+}
+
+.cs-header .cs-title{
+    min-width: 550px;
+    height: 100%;
+    position: relative;
+}
+.cs-header .cs-sub-header{
+    width: auto;
+    height: 100%;
+    position: relative;
+    margin-right: 20%;
+}
