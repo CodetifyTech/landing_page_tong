@@ -446,3 +446,109 @@ body {
     }
         
 }
+
+
+
+
+.top-bar_view-style_2 {
+    position: relative;
+    z-index: 100;
+    background: #005bbb;
+}
+@media (max-width: 768px) {
+    .slogan__description{
+        display: none;
+    }
+    #SECTION393 {
+        height: auto;
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1140px;
+    }
+}
+
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.top-bar_view-style_2 .top-bar__content {
+    display: table;
+    width: 100%;
+    text-align: justify;
+}
+.top-bar__content {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+}
+.top-bar__content {
+    position: relative;
+    height: 70px;
+}
+.logo {
+    display: table;
+    height: 70px;
+}.top-bar_view-style_2 .logo .logo__icon {
+    max-width: 48px;
+}
+.top-bar_view-style_2 .logo .logo__icon {
+    max-width: 48px;
+}
+.logo .logo__icon {
+    display: table-cell;
+    vertical-align: middle;
+}
+.top-bar__content span {
+    font-size: 22px;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 2px;
+}.logo img {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+}.top-bar_view-style_2 .logo .logo__inner {
+    padding-left: 10px;
+}
+.logo .logo__inner {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+.top-bar_view-style_2 .logo .logo__title {
+    display: block;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 28px;
+    padding-top: 0;
+    font-size: 14px;
+    color: #ffffff;
+}.top-bar_view-style_2 .logo .logo__description {
+    font-size: 16px;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+    padding-top: 6px;
+    text-transform: uppercase;
+}
+.top-bar_view-style_2 .logo .logo__title::after{
+    content: '';
+    background-color: #ffffff;
+    width: 195px;
+    height: 1px;
+    display: block;
+}
