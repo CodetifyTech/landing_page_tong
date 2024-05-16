@@ -1367,7 +1367,7 @@ a:link {
   #SHAPE332,
   #IMAGE363,
   #IMAGE391 {
-    pointer-events: none !important;
+    /* pointer-events: none !important; */
   }
 }
 
@@ -1403,7 +1403,7 @@ a:link {
   #IMAGE363,
   #IMAGE391 {
     /* opacity: 0 !important; */
-    pointer-events: none !important;
+    /* pointer-events: none !important; */
   }
 }
 
@@ -2091,6 +2091,7 @@ body {
 #BUTTON_TEXT303,
 #FORM_ITEM306,
 #FORM_ITEM307,
+#FORM_ITEM308,
 #HEADLINE311,
 #HEADLINE312,
 #HEADLINE324,
@@ -5120,7 +5121,7 @@ body {
   }
 
   #SECTION6 {
-    height: 400px;
+    height: 800px;
   }
 
   #SECTION6 > .ladi-section-background {
@@ -5153,7 +5154,7 @@ body {
   #IMAGE298 {
     width: 140.741px;
     height: 159.389px;
-    top: 225px;
+    top: 622px;
     left: 767.259px;
   }
 
@@ -5188,7 +5189,7 @@ body {
   #GROUP294 {
     width: 430.279px;
     height: 338.116px;
-    top: 40px;
+    top: 445px;
     left: 42.791px;
   }
 
@@ -5223,7 +5224,7 @@ body {
   }
 
   #IMAGE299 {
-    top: 350px;
+    top: 750px;
     left: -358.5px;
   }
 
@@ -5238,7 +5239,7 @@ body {
   }
 
   #IMAGE297 {
-    top: 0px;
+    top: 395px;
     left: 347.192px;
   }
 
@@ -5251,7 +5252,7 @@ body {
   #GROUP376,
   #BOX377 {
     width: 480px;
-    height: 379px;
+    height: 430px;
   }
 
   #GROUP300 {
@@ -5275,6 +5276,7 @@ body {
   #FORM_ITEM305,
   #FORM_ITEM306,
   #FORM_ITEM307,
+  #FORM_ITEM308,
   #BUTTON379,
   #FORM_ITEM381,
   #FORM_ITEM382,
@@ -5285,7 +5287,7 @@ body {
 
   #BUTTON303,
   #BUTTON379 {
-    top: 181px;
+    top: 235px;
   }
 
   #BUTTON_TEXT303 {
@@ -5296,7 +5298,9 @@ body {
   #BUTTON_TEXT379 {
     top: 9px;
   }
-
+#FORM_ITEM308{
+    top: 163px;
+}
   #FORM_ITEM306,
   #FORM_ITEM382 {
     top: 109px;
@@ -7370,7 +7374,7 @@ body {
   }
 
   #SECTION6 {
-    height: 100px;
+    height: 820px;
   }
 
   #SECTION6 > .ladi-section-background {
@@ -7526,7 +7530,7 @@ body {
   #GROUP376,
   #BOX377 {
     width: 380px;
-    height: 320px;
+    height: 370px;
   }
 
   #GROUP300 {
@@ -7550,7 +7554,7 @@ body {
   #BUTTON379 {
     width: 340px;
     height: 47.619px;
-    top: 152.381px;
+    top: 200.381px;
   }
 
   #BUTTON_TEXT303 {
@@ -7565,6 +7569,7 @@ body {
   #FORM_ITEM305,
   #FORM_ITEM306,
   #FORM_ITEM307,
+  #FORM_ITEM308,
   #FORM_ITEM381,
   #FORM_ITEM382,
   #FORM_ITEM383 {
@@ -7576,7 +7581,9 @@ body {
   #FORM_ITEM382 {
     top: 47.619px;
   }
-
+  #FORM_ITEM308{
+    top: 143px;
+  }
   #FORM_ITEM307,
   #FORM_ITEM383 {
     top: 95.2381px;
