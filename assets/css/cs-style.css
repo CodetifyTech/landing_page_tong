@@ -1,101 +1,66 @@
 body {
-    padding: 0;
-    margin: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
+  padding: 0;
+  margin: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
 }
 
 /* Header */
-#SECTION393>.ladi-section-background{
-    background-color: #005bbb;
+#SECTION393 > .ladi-section-background {
+  background-color: #005bbb;
 }
 
-.cs-header{
-    height: 70px;
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    position: relative;
+.cs-header {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  position: relative;
 }
 
-.cs-header .cs-logo{
-    height: 100%;
-    width: auto;
-    margin-left: 10%;
+.cs-header .cs-logo {
+  height: 100%;
+  width: auto;
+  margin-left: 10%;
 }
 
-.cs-header .cs-logo img{
-    width: auto;
-    height: 100%;
+.cs-header .cs-logo img {
+  width: auto;
+  height: 100%;
 }
 
-.cs-header .cs-title{
-    min-width: 550px;
-    height: 100%;
-    position: relative;
+.cs-header .cs-title {
+  min-width: 550px;
+  height: 100%;
+  position: relative;
 }
-.cs-header .cs-sub-header{
-    width: auto;
-    height: 100%;
-    position: relative;
-    margin-right: 20%;
+.cs-header .cs-sub-header {
+  width: auto;
+  height: 100%;
+  position: relative;
+  margin-right: 20%;
 }
-
+#CAROUSEL button,
+.ladi-element.slick-slide.slick-cloned {
+  display: none !important;
+}
+/* 
 #LINE69{
     top:110px;
 }
 
 /* Ngành học Cử nhân */
 
-#SECTION4{
+/* #SECTION4{
     height: 1500px;
 }
-#cs-GROUP1{
-    height: 330px;
-    width: 350px;
-    top: 200px;
-}
-#cs-GROUP2{
-    height: 330px;
-    width: 330px;
-    top: 600px;
-}
-#cs-GROUP3{
-    height: 330px;
-    width: 330px;
-    top: 1000px;
-}
-#cs-GROUP4{
-    height: 330px;
-    width: 330px;
-    top: 1000px;
-    left: 450px;
-}
-#cs-GROUP5{
-    height: 330px;
-    width: 330px;
-    top: 1000px;
-    left: 900px;
 
-}
-#cs-GROUP6{
-    height: 330px;
-    width: 330px;
-    top: 600px;
-    left: 900px;
-}
-#cs-GROUP7{
-    height: 330px;
-    width: 330px;
-    top: 200px;
-    left: 900px;
-}
 
 
 /* desktop */
-
+/* * 
 @media screen and (max-width: 1440px) {
     #SECTION4{
         height: 2000px;
@@ -170,10 +135,10 @@ body {
     #BOX169{
 
     }
-}
+} */
 /* tablet */
 
-
+/* 
 @media screen and (max-width: 1024px){
     #SECTION4{
         height: 2000px;
@@ -357,6 +322,7 @@ body {
 
  
 /* mobile */
+/*
 @media screen and (max-width: 600px){
     #SECTION4 {
         height: 1885px;
@@ -380,8 +346,8 @@ body {
     #IMAGE158>.ladi-image>.ladi-image-background{
         left: 0;
         background-size: contain;
-        background-position: center; /* Căn giữa hình ảnh */
-        background-repeat: no-repeat; /* Không lặp lại */
+        background-position: center; 
+        background-repeat: no-repeat; 
         width: 90%;
         height: 100%;
         margin: 0 5%;
@@ -445,110 +411,111 @@ body {
         width: 70%;
     }
         
-}
-
-
-
+} 
+*/
 
 .top-bar_view-style_2 {
-    position: relative;
-    z-index: 100;
-    background: #005bbb;
+  position: relative;
+  z-index: 100;
+  background: #005bbb;
 }
 @media (max-width: 768px) {
-    .slogan__description{
-        display: none;
-    }
-    #SECTION393 {
-        height: auto;
-    }
+  .slogan__description {
+    display: none;
+  }
+  #SECTION393 {
+    height: auto;
+  }
 }
 @media (min-width: 768px) {
-    .container {
-        width: 750px;
-    }
+  .container {
+    width: 750px;
+  }
 }
 @media (min-width: 992px) {
-    .container {
-        width: 970px;
-    }
+  .container {
+    width: 970px;
+  }
 }
 @media (min-width: 1200px) {
-    .container {
-        width: 1140px;
-    }
+  .container {
+    width: 1140px;
+  }
 }
-
 
 .container {
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .top-bar_view-style_2 .top-bar__content {
-    display: table;
-    width: 100%;
-    text-align: justify;
+  display: table;
+  width: 100%;
+  text-align: justify;
 }
 .top-bar__content {
-    display: flex !important;
-    align-items: center;
-    justify-content: space-between;
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
 }
 .top-bar__content {
-    position: relative;
-    height: 70px;
+  position: relative;
+  height: 70px;
 }
 .logo {
-    display: table;
-    height: 70px;
-}.top-bar_view-style_2 .logo .logo__icon {
-    max-width: 48px;
+  display: table;
+  height: 70px;
 }
 .top-bar_view-style_2 .logo .logo__icon {
-    max-width: 48px;
+  max-width: 48px;
+}
+.top-bar_view-style_2 .logo .logo__icon {
+  max-width: 48px;
 }
 .logo .logo__icon {
-    display: table-cell;
-    vertical-align: middle;
+  display: table-cell;
+  vertical-align: middle;
 }
 .top-bar__content span {
-    font-size: 22px;
-    color: #fff;
-    font-family: 'Josefin Sans', sans-serif;
-    letter-spacing: 2px;
-}.logo img {
-    display: flex;
-    max-width: 100%;
-    height: auto;
-}.top-bar_view-style_2 .logo .logo__inner {
-    padding-left: 10px;
+  font-size: 22px;
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 2px;
+}
+.logo img {
+  display: flex;
+  max-width: 100%;
+  height: auto;
+}
+.top-bar_view-style_2 .logo .logo__inner {
+  padding-left: 10px;
 }
 .logo .logo__inner {
-    display: table-cell;
-    vertical-align: middle;
-    padding-left: 20px;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 20px;
 }
 .top-bar_view-style_2 .logo .logo__title {
-    display: block;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    line-height: 28px;
-    padding-top: 0;
-    font-size: 14px;
-    color: #ffffff;
-}.top-bar_view-style_2 .logo .logo__description {
-    font-size: 16px;
-    letter-spacing: 3px;
-    margin-bottom: 5px;
-    padding-top: 6px;
-    text-transform: uppercase;
+  display: block;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 28px;
+  padding-top: 0;
+  font-size: 14px;
+  color: #ffffff;
 }
-.top-bar_view-style_2 .logo .logo__title::after{
-    content: '';
-    background-color: #ffffff;
-    width: 195px;
-    height: 1px;
-    display: block;
+.top-bar_view-style_2 .logo .logo__description {
+  font-size: 16px;
+  letter-spacing: 3px;
+  margin-bottom: 5px;
+  padding-top: 6px;
+  text-transform: uppercase;
+}
+.top-bar_view-style_2 .logo .logo__title::after {
+  content: "";
+  background-color: #ffffff;
+  width: 195px;
+  height: 1px;
+  display: block;
 }
