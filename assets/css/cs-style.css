@@ -1,3 +1,12 @@
+body {
+    padding: 0;
+    margin: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
 /* Header */
 #SECTION393>.ladi-section-background{
     background-color: #005bbb;
@@ -32,4 +41,408 @@
     height: 100%;
     position: relative;
     margin-right: 20%;
+}
+
+#LINE69{
+    top:110px;
+}
+
+/* Ngành học Cử nhân */
+
+#SECTION4{
+    height: 1500px;
+}
+#cs-GROUP1{
+    height: 330px;
+    width: 350px;
+    top: 200px;
+}
+#cs-GROUP2{
+    height: 330px;
+    width: 330px;
+    top: 600px;
+}
+#cs-GROUP3{
+    height: 330px;
+    width: 330px;
+    top: 1000px;
+}
+#cs-GROUP4{
+    height: 330px;
+    width: 330px;
+    top: 1000px;
+    left: 450px;
+}
+#cs-GROUP5{
+    height: 330px;
+    width: 330px;
+    top: 1000px;
+    left: 900px;
+
+}
+#cs-GROUP6{
+    height: 330px;
+    width: 330px;
+    top: 600px;
+    left: 900px;
+}
+#cs-GROUP7{
+    height: 330px;
+    width: 330px;
+    top: 200px;
+    left: 900px;
+}
+
+
+/* desktop */
+
+@media screen and (max-width: 1440px) {
+    #SECTION4{
+        height: 2000px;
+    }
+
+    #cs-GROUP1{
+        top: 200px;
+    }
+    #cs-GROUP2{
+        top: 600px;
+    }
+    #cs-GROUP3{
+        top: 1000px;
+    }
+    #cs-GROUP4{
+        top: 1000px;
+        left: 450px;
+    }
+    #cs-GROUP5{
+        top: 1000px;
+        left: 900px;
+    
+    }
+    #cs-GROUP6{
+        top: 600px;
+        left: 900px;
+    }
+    #cs-GROUP7{
+        top: 200px;
+        left: 900px;
+    }
+
+    #BOX174,
+    #BOX169{
+
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    #SECTION4{
+        height: 1500px;
+    }
+
+    #cs-GROUP1{
+        top: 200px;
+    }
+    #cs-GROUP2{
+        top: 600px;
+    }
+    #cs-GROUP3{
+        top: 1000px;
+    }
+    #cs-GROUP4{
+        top: 1000px;
+        left: 450px;
+    }
+    #cs-GROUP5{
+        top: 1000px;
+        left: 900px;
+    
+    }
+    #cs-GROUP6{
+        top: 600px;
+        left: 900px;
+    }
+    #cs-GROUP7{
+        top: 200px;
+        left: 900px;
+    }
+
+    #BOX174,
+    #BOX169{
+
+    }
+}
+/* tablet */
+
+
+@media screen and (max-width: 1024px){
+    #SECTION4{
+        height: 2000px;
+    }
+    .ladi-section .ladi-container{
+        width: 1200px;
+    }
+
+    #cs-GROUP1{
+        top: 200px;
+        left: 70px;
+    }
+    #cs-GROUP2{
+        top: 475px;
+        left: auto;
+        right: 250px;
+
+    }
+    #cs-GROUP3{
+        top: 600px;
+        left: 70px;
+    }
+    #cs-GROUP4{
+        top: 875px;
+        left: auto;
+        right: 250px;
+    }
+    #cs-GROUP5{
+        top: 1275px;
+        left: auto;
+        right: 250px;
+    
+    }
+    #cs-GROUP6{
+        top: 1395px;
+        left: 70px;
+    }
+    #cs-GROUP7{
+        top: 1675px;
+        left: auto;
+        right: 250px;
+    }
+    #GROUP167{
+        width: 100px;
+
+    }
+
+    #IMAGE160,#IMAGE161,#IMAGE162,#IMAGE163,#IMAGE164,#IMAGE165,
+    #IMAGE166{
+        display: none;
+    }
+
+    #IMAGE158{
+    }
+
+    #IMAGE158 .ladi-image{
+        left: -100px;
+    }
+
+    #HEADLINE159 {
+        left: 10px;
+    }
+
+    #IMAGE197{
+        top: 130px;
+        left: auto;
+        right: 250px;
+    }
+
+    #IMAGE198{
+        top: 1000px;
+        left: 0px;
+    }
+    #BOX174,
+    #BOX169{}
+}
+
+@media screen and (max-width: 840px){
+    #SECTION4{
+        height: 2000px;
+    }
+    .ladi-section .ladi-container{
+        width: 800px;
+    }
+
+    #cs-GROUP1{
+        top: 200px;
+        left: 10px;
+    }
+    #cs-GROUP2{
+        top: 475px;
+        right: 5px;
+        left: auto;
+
+    }
+    #cs-GROUP3{
+        top: 600px;
+        left: 10px;
+    }
+    #cs-GROUP4{
+        top: 875px;
+        right: 5px;
+        left: auto;
+    }
+    #cs-GROUP5{
+        top: 1275px;
+        right: 5px;
+        left: auto;
+    
+    }
+    #cs-GROUP6{
+        top: 1395px;
+        left: 10px;
+    }
+    #cs-GROUP7{
+        top: 1675px;
+        right: 5px;
+        left: auto;
+    }
+    #GROUP167{
+        width: 100px;
+
+    }
+
+    #IMAGE160,#IMAGE161,#IMAGE162,#IMAGE163,#IMAGE164,#IMAGE165,
+    #IMAGE166{
+        display: none;
+    }
+
+    #IMAGE158{
+    }
+
+    #IMAGE158 .ladi-image{
+        left: auto;
+        right: 200px;
+    }
+
+    #HEADLINE159 {
+        left: -10px;
+    }
+
+    #IMAGE197{
+        top: 130px;
+        left: auto;
+        right: 10PX;
+    }
+
+    #IMAGE198{
+        top: 1000px;
+        left: -100px;
+    }
+    #BOX174,
+    #BOX169{}
+}
+
+@media screen and (max-width: 800px){
+    #SECTION4{
+        height: 2000px;
+    }
+    .ladi-section .ladi-container{
+        width: 700px;
+    }
+
+    #IMAGE158 .ladi-image{
+        left: auto;
+        right: 300px;
+    }
+
+    #HEADLINE159 {
+        left: -80px;
+    }
+
+}  
+
+@media screen and (max-width: 768px){
+    #IMAGE198{
+        top: 1000px;
+        left: -70px;
+    }
+}   
+
+ 
+/* mobile */
+@media screen and (max-width: 600px){
+    #SECTION4 {
+        height: 1885px;
+        width: 100%;
+    }
+    .ladi-section .ladi-container{
+        width: 100%;
+    }
+    #IMAGE158{
+        width: 100%;
+        height: 120px;
+        top: -10px;
+        left: 0;
+    }
+
+    #IMAGE158 .ladi-image{
+        left: 0;
+
+    }
+
+    #IMAGE158>.ladi-image>.ladi-image-background{
+        left: 0;
+        background-size: contain;
+        background-position: center; /* Căn giữa hình ảnh */
+        background-repeat: no-repeat; /* Không lặp lại */
+        width: 90%;
+        height: 100%;
+        margin: 0 5%;
+    }
+
+    #HEADLINE159 {
+        width: 100%;
+        left: 0;
+    }
+
+    #HEADLINE159>.ladi-headline{
+        font-size: 16px;
+        width: 80%;
+        height: auto;
+        margin: 0 10%;
+    }
+
+    #cs-GROUP1,#cs-GROUP2,#cs-GROUP3,#cs-GROUP4,#cs-GROUP5,#cs-GROUP6,#cs-GROUP7{
+        width: 100%;     
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    #cs-GROUP1{
+        top: 200px;
+        height: 180px;
+    }
+    #cs-GROUP2{
+        top: 450px;
+        height: 190px;
+    }
+    #cs-GROUP3{
+        top: 710px;
+        height: 180px;
+    }
+    #cs-GROUP4{
+        top: 940px;
+        height: 180px;
+    }
+    #cs-GROUP5{
+        top: 1170px;
+        height: 200px;
+    }
+    #cs-GROUP6{
+        top: 1440px;
+        height: 180px;
+    }
+    #cs-GROUP7{
+        top: 1690px;
+        height: 190px;
+    }
+
+    #SECTION4 #BOX174, #SECTION4 #BOX169{
+        height: 100%;
+        width: 90%;
+        margin-right: 20px;
+    }
+
+    #SECTION4 #HEADLINE177,#SECTION4 #PARAGRAPH178, #SECTION4 #PARAGRAPH171 {
+        width: 70%;
+    }
+        
 }
