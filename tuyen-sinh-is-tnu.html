@@ -240,96 +240,6 @@
         <div id="HEADLINE70" class="ladi-element">
           <h3 class="ladi-headline ladi-transition"></h3>
         </div>
-        <!-- <div id="GROUP75" class="ladi-element">
-            <div class="ladi-group">
-              <div id="BOX73" class="ladi-element">
-                <div class="ladi-box ladi-transition"></div>
-              </div>
-              <div id="BOX72" class="ladi-element">
-                <div class="ladi-box ladi-transition"></div>
-              </div>
-              <div id="IMAGE74" class="ladi-element">
-                <div class="ladi-image ladi-transition">
-                  <div class="ladi-image-background"></div>
-                </div>
-              </div>
-            </div>
-          </div> -->
-        <!-- <div id="HEADLINE76" class="ladi-element">
-            <h3 class="ladi-headline ladi-transition">
-              <span style="font-weight: bold; color: rgb(29, 74, 153)"
-                >100% Sinh viên</span
-              >
-              tốt nghiệp có việc làm
-            </h3>
-          </div> -->
-        <!-- <div id="GROUP77" class="ladi-element">
-            <div class="ladi-group">
-              <div id="BOX78" class="ladi-element">
-                <div class="ladi-box ladi-transition"></div>
-              </div>
-              <div id="BOX79" class="ladi-element">
-                <div class="ladi-box ladi-transition"></div>
-              </div>
-              <div id="IMAGE80" class="ladi-element">
-                <div class="ladi-image ladi-transition">
-                  <div class="ladi-image-background"></div>
-                </div>
-              </div>
-            </div>
-          </div> -->
-        <!-- <div id="GROUP81" class="ladi-element">
-            <div class="ladi-group">
-              <div id="BOX82" class="ladi-element">
-                <div class="ladi-box ladi-transition"></div>
-              </div>
-              <div id="BOX83" class="ladi-element">
-                <div class="ladi-box ladi-transition"></div>
-              </div>
-              <div id="IMAGE84" class="ladi-element">
-                <div class="ladi-image ladi-transition">
-                  <div class="ladi-image-background"></div>
-                </div>
-              </div>
-            </div>
-          </div> -->
-        <!-- <div id="GROUP85" class="ladi-element">
-            <div class="ladi-group">
-              <div id="BOX86" class="ladi-element">
-                <div class="ladi-box ladi-transition"></div>
-              </div>
-              <div id="BOX87" class="ladi-element">
-                <div class="ladi-box ladi-transition"></div>
-              </div>
-              <div id="IMAGE88" class="ladi-element">
-                <div class="ladi-image ladi-transition">
-                  <div class="ladi-image-background"></div>
-                </div>
-              </div>
-            </div>
-          </div> -->
-        <!-- <div id="HEADLINE89" class="ladi-element">
-            <h3 class="ladi-headline ladi-transition">
-              <span style="color: rgb(29, 74, 153); font-weight: 700"
-                >3.042 Sinh viên </span
-              >đã được đào tạo
-            </h3>
-          </div>
-          <div id="HEADLINE90" class="ladi-element">
-            <h3 class="ladi-headline ladi-transition">
-              <span style="color: rgb(29, 74, 153); font-weight: 700"
-                >30% Sinh viên</span
-              >
-              được các doanh nghiệp nhận khi đang học<br />
-            </h3>
-          </div>
-          <div id="HEADLINE91" class="ladi-element">
-            <h3 class="ladi-headline ladi-transition">
-              <span style="color: rgb(29, 74, 153); font-weight: 700"
-                >Rất nhiều CLB học sinh, sinh viên </span
-              >kết nối và phát triển bản thân.<br />
-            </h3>
-          </div> -->
         <a href="https://is.tnu.edu.vn/xet-tuyen-hoc-ba-truc-tuyen/">
           <div data-action="true" id="BUTTON93" class="ladi-element">
             <div class="ladi-button ladi-transition">
@@ -383,21 +293,24 @@
             <div id="BOX56" class="ladi-element">
               <div class="ladi-box ladi-transition"></div>
             </div>
+            <!-- TODO: FORM 1 -->
             <div id="FORM48" data-config-id="" class="ladi-element">
-              <form autocomplete="off" method="post" class="ladi-form">
+              <form autocomplete="off" method="post" class="ladi-form" id="send_mail_form">
                 <div id="BUTTON49" class="ladi-element">
+
                   <div class="ladi-button ladi-transition">
                     <div class="ladi-button-background"></div>
-                    <div id="BUTTON_TEXT49" class="ladi-element ladi-button-headline">
-                      <p class="ladi-headline ladi-transition">
+                    <div id="BUTTON_TEXT49" class="ladi-element ladi-button-headline" style="display: flex;">
+                      <button class="ladi-headline ladi-transition" type="submit" style="background-color: #FFF103;">
                         <span class="ladipage-animated-headline clip"><span class="ladipage-animated-words-wrapper"
                             data-word='["NHẬN TƯ VẤN"]' style="width: 147px"><b class="is-visible">NHẬN TƯ VẤN</b><b
                               class="is-hidden">NHẬN TƯ VẤN</b>
                             <div class="after" style="background-color: rgb(29, 74, 153)"></div>
                           </span></span>
-                      </p>
+                      </button>
                     </div>
                   </div>
+
                 </div>
                 <div id="FORM_ITEM50" class="ladi-element">
                   <div class="ladi-form-item-container">
@@ -421,8 +334,8 @@
                   <div class="ladi-form-item-container">
                     <div class="ladi-form-item-background"></div>
                     <div class="ladi-form-item">
-                      <input autocomplete="off" tabindex="3" name="phone" required="" class="ladi-form-control"
-                        type="tel" placeholder="Số điện thoại" pattern="(\+84|0)(9|8|7|5|3)[0-9]{8}" value="" />
+                      <input autocomplete="off" tabindex="3" name="sdt" required="" class="ladi-form-control" type="tel"
+                        placeholder="Số điện thoại" pattern="(\+84|0)(9|8|7|5|3)[0-9]{8}" value="" />
                     </div>
                   </div>
                 </div>
@@ -1127,35 +1040,6 @@
             </div>
           </div>
         </div>
-        <!-- <div id="GROUP343" class="ladi-element">
-                    <div class="ladi-group">
-                        <div data-action="true" id="SHAPE341" class="ladi-element">
-                            <div class="ladi-shape ladi-transition">
-                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                    version="1.1" x="0px" y="0px" viewBox="17 176.375 48 48"
-                                    enable-background="new 17 176.375 48 48" xml:space="preserve"
-                                    preserveAspectRatio="none" width="100%" height="100%" class=""
-                                    fill="rgba(0, 39, 96, 1)">
-                                    <path
-                                        d="M41,176.375c-13.255,0-24,10.745-24,24s10.745,24,24,24s24-10.745,24-24S54.255,176.375,41,176.375z   M47.922,203.453l-9.343,9.344c-1.556,1.555-2.829,1.028-2.829-1.172v-22c0-2.2,1.273-2.727,2.829-1.171l9.343,9.343  C49.477,199.352,49.477,201.898,47.922,203.453z">
-                                    </path>
-                                </svg>
-                            </div>
-                        </div>
-                        <div data-action="true" id="SHAPE342" class="ladi-element">
-                            <div class="ladi-shape ladi-transition">
-                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                    version="1.1" x="0px" y="0px" viewBox="0 0 48 48" enable-background="new 0 0 48 48"
-                                    xml:space="preserve" preserveAspectRatio="none" width="100%" height="100%" class=""
-                                    fill="rgba(0, 39, 96, 1)">
-                                    <path
-                                        d="M24,0C10.745,0,0,10.745,0,24s10.745,24,24,24s24-10.745,24-24S37.255,0,24,0z M28.75,35.25  c0,2.2-1.272,2.728-2.828,1.172l-9.343-9.344c-1.556-1.556-1.556-4.101,0-5.657l9.343-9.343c1.556-1.556,2.828-1.029,2.828,1.171  V35.25z">
-                                    </path>
-                                </svg>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
         <div id="CAROUSEL335" class="ladi-element">
           <div class="ladi-carousel">
             <div id="CAROUSEL" class="ladi-carousel-content">
@@ -1531,16 +1415,17 @@
             <div id="BOX301" class="ladi-element">
               <div class="ladi-box ladi-transition"></div>
             </div>
+            <!-- TODO: Form 2 -->
             <div id="FORM302" data-config-id="" class="ladi-element">
-              <form autocomplete="off" method="post" class="ladi-form">
+              <form autocomplete="off" method="post" class="ladi-form" id="send_mail_form_footer">
                 <div id="BUTTON303" class="ladi-element">
                   <div class="ladi-button ladi-transition">
                     <div class="ladi-button-background"></div>
-                    <div id="BUTTON_TEXT303" class="ladi-element ladi-button-headline">
-                      <p class="ladi-headline ladi-transition">
+                    <div id="BUTTON_TEXT303" class="ladi-element ladi-button-headline" style="display: flex;">
+                      <button class="ladi-headline ladi-transition" style="background-color: #FFF103;" type="submit">
                         <span class="ladipage-animated-headline clip"><span class="ladipage-animated-words-wrapper"
                             data-word='["NHẬN TƯ VẤN"]'>NHẬN TƯ VẤN</span></span>
-                      </p>
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -1566,7 +1451,7 @@
                   <div class="ladi-form-item-container">
                     <div class="ladi-form-item-background"></div>
                     <div class="ladi-form-item">
-                      <input autocomplete="off" tabindex="3" name="phone" required class="ladi-form-control" type="tel"
+                      <input autocomplete="off" tabindex="3" name="sdt" required class="ladi-form-control" type="tel"
                         placeholder="Số điện thoại" pattern="(\+84|0)(9|8|7|5|3)[0-9]{8}" value="" />
                     </div>
                   </div>
@@ -2157,6 +2042,10 @@
         });
       }
     });
+  </script>
+
+  <script src="./sendmail.js">
+
   </script>
 </body>
 <!-- Mirrored from w.tuybutky.com/cu-nhan-du-hoc-0009 by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 14 May 2024 08:04:17 GMT -->
